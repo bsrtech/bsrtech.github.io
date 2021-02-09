@@ -5,16 +5,6 @@ body {
   font-family: 'MyWebFont', Fallback, sans-serif;
 }
 
-@font-face {
-  font-family: 'MyWebFont';
-  src: url('/fontswebfont.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
 .header-fixed {
 	background-color:#292c2f;
 	box-shadow:0 1px 1px #ccc;
@@ -46,7 +36,7 @@ body {
 
 .header-fixed .header-limiter h1 {
 	float: left;
-	font: normal 28px MyWebFont, Fallback, sans-serif;
+	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
 	line-height: 40px;
 	margin: 0;
 }
@@ -63,7 +53,7 @@ body {
 }
 
 .header-fixed .header-limiter nav {
-	font:16px MyWebFont, Fallback, sans-serif;
+	font:16px Arial, Helvetica, sans-serif;
 	line-height: 40px;
 	float: right;
 }
