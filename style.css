@@ -1,6 +1,7 @@
 body {
   background-color: #add8e6;
   background-image: url("background.jpg");
+  background-size: 300px 150px;
   background-color: #cccccc;
   font-family: 'MyWebFont', Fallback, sans-serif;
 }
